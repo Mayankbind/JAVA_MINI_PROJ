@@ -2,29 +2,29 @@ import java.util.*;
 public class Faculty_info{
     Class_main o=new Class_main();
     Dasboard o2=new Dasboard();
-    public void view_name()
-    {
+    public void view_name() {
         // HASHMAP FOR NAMES AND FACULTY ID
-        HashMap<Integer,String> hm = new HashMap<>();
-        hm.put(1,"Mrugendrasinh Rahevar");
-        hm.put(2,"Dr. Ritesh Patel");
-        hm.put(3,"Arpita Shah");
-        hm.put(4,"Dr Ashwin Makwana");
-        hm.put(5,"Dhaval Bhoi");
-        hm.put(6,"Vaishali Koria");
-        hm.put(7,"Ronak Patel");
-        hm.put(8,"Trusha Patel");
-        hm.put(9,"Martin Parmar");
-        hm.put(10,"Sneha Padhiar");
-        hm.put(11,"Deep Kothadiya");
-        hm.put(12,"Mayuri Popat");
-        hm.put(13,"Rikita Chokshi");
+        HashMap<Integer, String> hm = new HashMap<>();
+        hm.put(1, "Mrugendrasinh Rahevar");
+        hm.put(2, "Dr. Ritesh Patel");
+        hm.put(3, "Arpita Shah");
+        hm.put(4, "Dr Ashwin Makwana");
+        hm.put(5, "Dhaval Bhoi");
+        hm.put(6, "Vaishali Koria");
+        hm.put(7, "Ronak Patel");
+        hm.put(8, "Trusha Patel");
+        hm.put(9, "Martin Parmar");
+        hm.put(10, "Sneha Padhiar");
+        hm.put(11, "Deep Kothadiya");
+        hm.put(12, "Mayuri Popat");
+        hm.put(13, "Rikita Chokshi");
         System.out.println("ID:\t\tFACULTY");
-        for (Map.Entry<Integer,String> e:hm.entrySet()) {
-            System.out.print(e.getKey()+"\t\t");
-            System.out.print(e.getValue()+"\n");
+        for (Map.Entry<Integer, String> e : hm.entrySet()) {
+            System.out.print(e.getKey() + "\t\t");
+            System.out.print(e.getValue() + "\n");
         }
-
+    }
+    public void view_info(){
         //HASHMAP FOR FACULTY INFORMATION
         HashMap<Integer,String> hm2 = new HashMap<>();
         hm2.put(1,"Mrugendrasinh Rahevar: \nDesignation : Assistant Professor\nExperience : 15+ Years\nEmployer: CE, CSPIT, CHARUSAT\nContact number: 02697-5354\nEmail: mrugendrarahevar.ce@charusat.ac.in");
@@ -64,32 +64,5 @@ public class Faculty_info{
                     break;
             }
         }
-
-//        System.out.println(hm.get(1));
-//        System.out.println(hm2.get(2));
-//        List l1=new ArrayList<>();
-//        l1.add("Mrugendrasinh Rahevar: \nDesignation : Assistant Professor\nExperience : 15+ Years\nEmployer: CE, CSPIT, CHARUSAT\nContact number: 02697-5354\nEmail: mrugendrarahevar.ce@charusat.ac.in");
-//        l1.add("Dr. Ritesh Patel");
-//        l1.add("Arpita Shah");
-//        l1.add("Dr Ashwin Makwana");
-//        l1.add("Dhaval Bhoi");
-//        l1.add("Vaishali Koria");
-//        l1.add("Ronak Patel");
-//        l1.add("Trusha Patel");
-//        l1.add("Martin Parmar");
-//        l1.add("Sneha Padhiar");
-//        l1.add("Deep Kothadiya");
-//        l1.add("Mayuri Popat");
-//        l1.add("Rikita Chokshi");
-//        System.out.println("1: Mrugendrasinh Rahevar\n2: Dr. Ritesh Patel");
-//        System.out.println("3: Arpita Shah\n4: Dr Ashwin Makwana");
-//        System.out.println("5: Dhaval Bhoi\n6: Vaishali Koria");
-//        System.out.println("7: Martin Parmar\n8: Ronak Patel");
-//        System.out.println("9: Trusha Patel\n10: Sneha Padhiar");
-//        System.out.println("11: Deep Kothadiya\n12: Mayuri Popat");
-//        System.out.println("13: Rikita Chokshi");
-//        System.out.println("\nEnter Faculty Id: ");
-//        System.out.println(l1.get(0));
-
     }
 }
